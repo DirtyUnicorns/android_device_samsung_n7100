@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_n7100.mk \
-    $(LOCAL_DIR)/omni_n7100.mk
+    $(LOCAL_DIR)/du_n7100.mk

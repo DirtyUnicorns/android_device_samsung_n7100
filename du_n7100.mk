@@ -14,17 +14,17 @@
 # limitations under the License.
 #
 
-# Inherit Omni GSM telephony parts
-$(call inherit-product, vendor/omni/config/gsm.mk)
+# Inherit DU GSM telephony parts
+$(call inherit-product, vendor/du/config/gsm.mk)
 
-# Inherit some common Omni stuff
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common DU stuff
+$(call inherit-product, vendor/du/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/n7100/full_n7100.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := omni_n7100
+PRODUCT_NAME := du_n7100
 PRODUCT_DEVICE := n7100
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
